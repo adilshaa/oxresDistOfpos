@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.para {
+  font-size: 16px;
+  padding: 20px;
+  width: 70%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html::-webkit-scrollbar-track {
+  background-color: #e4e0e0;
+}
+html::-webkit-scrollbar-thumb {
+  background: #ef6508;
+  border-radius: 25px;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background: rgb(255, 106, 0);
+  border-radius: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: rgb(255, 106, 0);
+  border-radius: 10px;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 106, 0);
+  border-radius: 10px;
+}
+html::-webkit-scrollbar-thumb:active {
+  background: rgb(255, 106, 0);
+  border-radius: 10px;
+}
+html::-webkit-scrollbar-track {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgb(255, 128, 0) 0,
+    rgb(255, 106, 0) 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 10px 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid rgb(238, 94, 42);
+  box-shadow: inset 1px 1px 5px #ee5e2a;
+}
+html::-webkit-scrollbar {
+  width: 20px;
+}
+html::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, rgb(255, 106, 0) 0%, rgb(231, 119, 0) 100%);
+}
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0 0 0 100vh #000;
+}
